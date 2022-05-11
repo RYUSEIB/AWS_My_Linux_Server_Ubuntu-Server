@@ -1,0 +1,371 @@
+0 verbose cli [
+0 verbose cli   '/home/ubuntu/.nvm/versions/node/v16.15.0/bin/node',
+0 verbose cli   '/home/ubuntu/.nvm/versions/node/v16.15.0/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--prefix',
+0 verbose cli   '/home/ubuntu/.c9/lib/server'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/home/ubuntu/.nvm/versions/node/v16.15.0/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/ubuntu/.c9/lib/server/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/home/ubuntu/.c9/lib/server/etc/npmrc Completed in 6ms
+14 timing config:load:global Completed in 6ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 16ms
+19 timing npm:load:configload Completed in 16ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 3ms
+22 timing npm:load:display Completed in 4ms
+23 verbose logfile /home/ubuntu/.npm/_logs/2022-04-28T13_57_47_815Z-debug-0.log
+24 timing npm:load:logFile Completed in 4ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 25ms
+28 timing arborist:ctor Completed in 1ms
+29 timing arborist:ctor Completed in 0ms
+30 timing idealTree:init Completed in 20ms
+31 timing idealTree:userRequests Completed in 0ms
+32 silly idealTree buildDeps
+33 silly fetch manifest amd-loader@0.0.8
+34 http fetch GET 200 https://registry.npmjs.org/amd-loader 130ms (cache miss)
+35 silly fetch manifest async@3.1.1
+36 http fetch GET 200 https://registry.npmjs.org/async 44ms (cache miss)
+37 silly fetch manifest aws-sdk@2.610.0
+38 http fetch GET 200 https://registry.npmjs.org/aws-sdk 81ms (cache miss)
+39 silly fetch manifest commander@4.1.0
+40 http fetch GET 200 https://registry.npmjs.org/commander 30ms (cache miss)
+41 silly fetch manifest http-error@0.0.6
+42 http fetch GET 200 https://registry.npmjs.org/http-error 57ms (cache miss)
+43 silly fetch manifest js-yaml@3.13.1
+44 http fetch GET 200 https://registry.npmjs.org/js-yaml 31ms (cache miss)
+45 silly fetch manifest mkdirp@0.5.1
+46 http fetch GET 200 https://registry.npmjs.org/mkdirp 35ms (cache miss)
+47 silly fetch manifest uuid@3.4.0
+48 http fetch GET 200 https://registry.npmjs.org/uuid 30ms (cache miss)
+49 silly placeDep ROOT amd-loader@0.0.8 OK for: server@1.0.0 want: 0.0.8
+50 silly placeDep ROOT async@3.1.1 OK for: server@1.0.0 want: 3.1.1
+51 silly placeDep ROOT aws-sdk@2.610.0 OK for: server@1.0.0 want: 2.610.0
+52 silly placeDep ROOT commander@4.1.0 OK for: server@1.0.0 want: 4.1.0
+53 silly placeDep ROOT http-error@0.0.6 OK for: server@1.0.0 want: 0.0.6
+54 silly placeDep ROOT js-yaml@3.13.1 OK for: server@1.0.0 want: 3.13.1
+55 silly placeDep ROOT mkdirp@0.5.1 OK for: server@1.0.0 want: 0.5.1
+56 silly placeDep ROOT uuid@3.4.0 OK for: server@1.0.0 want: 3.4.0
+57 silly fetch manifest buffer@4.9.1
+58 silly fetch manifest events@1.1.1
+59 silly fetch manifest ieee754@1.1.13
+60 silly fetch manifest jmespath@0.15.0
+61 silly fetch manifest querystring@0.2.0
+62 silly fetch manifest sax@1.2.1
+63 silly fetch manifest url@0.10.3
+64 silly fetch manifest uuid@3.3.2
+65 silly fetch manifest xml2js@0.4.19
+66 silly fetch manifest argparse@^1.0.7
+67 silly fetch manifest esprima@^4.0.0
+68 silly fetch manifest minimist@0.0.8
+69 http fetch GET 200 https://registry.npmjs.org/buffer 37ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/argparse 73ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/ieee754 86ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/jmespath 85ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/minimist 84ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/events 89ms (cache miss)
+75 http fetch GET 200 https://registry.npmjs.org/esprima 87ms (cache miss)
+76 http fetch GET 200 https://registry.npmjs.org/querystring 90ms (cache miss)
+77 http fetch GET 200 https://registry.npmjs.org/xml2js 91ms (cache miss)
+78 http fetch GET 200 https://registry.npmjs.org/url 91ms (cache miss)
+79 http fetch GET 200 https://registry.npmjs.org/sax 103ms (cache miss)
+80 timing idealTree:#root Completed in 588ms
+81 timing idealTree:node_modules/amd-loader Completed in 1ms
+82 timing idealTree:node_modules/async Completed in 0ms
+83 silly placeDep ROOT buffer@4.9.1 OK for: aws-sdk@2.610.0 want: 4.9.1
+84 silly placeDep ROOT events@1.1.1 OK for: aws-sdk@2.610.0 want: 1.1.1
+85 silly placeDep ROOT ieee754@1.1.13 OK for: aws-sdk@2.610.0 want: 1.1.13
+86 silly placeDep ROOT jmespath@0.15.0 OK for: aws-sdk@2.610.0 want: 0.15.0
+87 silly placeDep ROOT querystring@0.2.0 OK for: aws-sdk@2.610.0 want: 0.2.0
+88 silly placeDep ROOT sax@1.2.1 OK for: aws-sdk@2.610.0 want: 1.2.1
+89 silly placeDep ROOT url@0.10.3 OK for: aws-sdk@2.610.0 want: 0.10.3
+90 silly placeDep node_modules/aws-sdk uuid@3.3.2 OK for: aws-sdk@2.610.0 want: 3.3.2
+91 silly placeDep ROOT xml2js@0.4.19 OK for: aws-sdk@2.610.0 want: 0.4.19
+92 silly fetch manifest base64-js@^1.0.2
+93 silly fetch manifest isarray@^1.0.0
+94 silly fetch manifest punycode@1.3.2
+95 silly fetch manifest xmlbuilder@~9.0.1
+96 http fetch GET 200 https://registry.npmjs.org/isarray 34ms (cache miss)
+97 http fetch GET 200 https://registry.npmjs.org/punycode 47ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/xmlbuilder 48ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/base64-js 54ms (cache miss)
+100 timing idealTree:node_modules/aws-sdk Completed in 73ms
+101 silly placeDep ROOT base64-js@1.5.1 OK for: buffer@4.9.1 want: ^1.0.2
+102 silly placeDep ROOT isarray@1.0.0 OK for: buffer@4.9.1 want: ^1.0.0
+103 timing idealTree:node_modules/buffer Completed in 2ms
+104 timing idealTree:node_modules/base64-js Completed in 0ms
+105 timing idealTree:node_modules/commander Completed in 0ms
+106 timing idealTree:node_modules/events Completed in 0ms
+107 timing idealTree:node_modules/http-error Completed in 0ms
+108 timing idealTree:node_modules/ieee754 Completed in 0ms
+109 timing idealTree:node_modules/isarray Completed in 0ms
+110 timing idealTree:node_modules/jmespath Completed in 0ms
+111 silly placeDep ROOT argparse@1.0.10 OK for: js-yaml@3.13.1 want: ^1.0.7
+112 silly placeDep ROOT esprima@4.0.1 OK for: js-yaml@3.13.1 want: ^4.0.0
+113 silly fetch manifest sprintf-js@~1.0.2
+114 http fetch GET 200 https://registry.npmjs.org/sprintf-js 30ms (cache miss)
+115 timing idealTree:node_modules/js-yaml Completed in 35ms
+116 silly placeDep ROOT sprintf-js@1.0.3 OK for: argparse@1.0.10 want: ~1.0.2
+117 timing idealTree:node_modules/argparse Completed in 1ms
+118 timing idealTree:node_modules/esprima Completed in 0ms
+119 silly placeDep ROOT minimist@0.0.8 OK for: mkdirp@0.5.1 want: 0.0.8
+120 timing idealTree:node_modules/mkdirp Completed in 1ms
+121 timing idealTree:node_modules/minimist Completed in 0ms
+122 timing idealTree:node_modules/querystring Completed in 0ms
+123 timing idealTree:node_modules/sax Completed in 0ms
+124 timing idealTree:node_modules/sprintf-js Completed in 0ms
+125 silly placeDep ROOT punycode@1.3.2 OK for: url@0.10.3 want: 1.3.2
+126 timing idealTree:node_modules/url Completed in 0ms
+127 timing idealTree:node_modules/punycode Completed in 0ms
+128 timing idealTree:node_modules/uuid Completed in 0ms
+129 silly placeDep ROOT xmlbuilder@9.0.7 OK for: xml2js@0.4.19 want: ~9.0.1
+130 timing idealTree:node_modules/xml2js Completed in 1ms
+131 timing idealTree:node_modules/xmlbuilder Completed in 0ms
+132 timing idealTree:node_modules/aws-sdk/node_modules/uuid Completed in 0ms
+133 timing idealTree:buildDeps Completed in 705ms
+134 timing idealTree:fixDepFlags Completed in 0ms
+135 timing idealTree Completed in 727ms
+136 timing reify:loadTrees Completed in 727ms
+137 timing reify:diffTrees Completed in 1ms
+138 silly reify moves {}
+139 timing reify:retireShallow Completed in 0ms
+140 timing reify:createSparse Completed in 4ms
+141 timing reify:loadBundles Completed in 0ms
+142 silly audit bulk request {
+142 silly audit   server: [ '1.0.0' ],
+142 silly audit   'amd-loader': [ '0.0.8' ],
+142 silly audit   async: [ '3.1.1' ],
+142 silly audit   'aws-sdk': [ '2.610.0' ],
+142 silly audit   commander: [ '4.1.0' ],
+142 silly audit   'http-error': [ '0.0.6' ],
+142 silly audit   'js-yaml': [ '3.13.1' ],
+142 silly audit   mkdirp: [ '0.5.1' ],
+142 silly audit   uuid: [ '3.4.0', '3.3.2' ],
+142 silly audit   buffer: [ '4.9.1' ],
+142 silly audit   events: [ '1.1.1' ],
+142 silly audit   ieee754: [ '1.1.13' ],
+142 silly audit   jmespath: [ '0.15.0' ],
+142 silly audit   querystring: [ '0.2.0' ],
+142 silly audit   sax: [ '1.2.1' ],
+142 silly audit   url: [ '0.10.3' ],
+142 silly audit   xml2js: [ '0.4.19' ],
+142 silly audit   'base64-js': [ '1.5.1' ],
+142 silly audit   isarray: [ '1.0.0' ],
+142 silly audit   argparse: [ '1.0.10' ],
+142 silly audit   esprima: [ '4.0.1' ],
+142 silly audit   'sprintf-js': [ '1.0.3' ],
+142 silly audit   minimist: [ '0.0.8' ],
+142 silly audit   punycode: [ '1.3.2' ],
+142 silly audit   xmlbuilder: [ '9.0.7' ]
+142 silly audit }
+143 silly tarball no local data for xmlbuilder@https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-9.0.7.tgz. Extracting by manifest.
+144 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz. Extracting by manifest.
+145 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz. Extracting by manifest.
+146 silly tarball no local data for sprintf-js@https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz. Extracting by manifest.
+147 silly tarball no local data for esprima@https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz. Extracting by manifest.
+148 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz. Extracting by manifest.
+149 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+150 silly tarball no local data for base64-js@https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz. Extracting by manifest.
+151 silly tarball no local data for xml2js@https://registry.npmjs.org/xml2js/-/xml2js-0.4.19.tgz. Extracting by manifest.
+152 silly tarball no local data for url@https://registry.npmjs.org/url/-/url-0.10.3.tgz. Extracting by manifest.
+153 silly tarball no local data for sax@https://registry.npmjs.org/sax/-/sax-1.2.1.tgz. Extracting by manifest.
+154 silly tarball no local data for querystring@https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz. Extracting by manifest.
+155 silly tarball no local data for jmespath@https://registry.npmjs.org/jmespath/-/jmespath-0.15.0.tgz. Extracting by manifest.
+156 silly tarball no local data for ieee754@https://registry.npmjs.org/ieee754/-/ieee754-1.1.13.tgz. Extracting by manifest.
+157 silly tarball no local data for events@https://registry.npmjs.org/events/-/events-1.1.1.tgz. Extracting by manifest.
+158 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz. Extracting by manifest.
+159 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz. Extracting by manifest.
+160 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz. Extracting by manifest.
+161 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-3.13.1.tgz. Extracting by manifest.
+162 silly tarball no local data for http-error@https://registry.npmjs.org/http-error/-/http-error-0.0.6.tgz. Extracting by manifest.
+163 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-4.1.0.tgz. Extracting by manifest.
+164 silly tarball no local data for aws-sdk@https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.610.0.tgz. Extracting by manifest.
+165 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz. Extracting by manifest.
+166 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-3.1.1.tgz. Extracting by manifest.
+167 silly tarball no local data for amd-loader@https://registry.npmjs.org/amd-loader/-/amd-loader-0.0.8.tgz. Extracting by manifest.
+168 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 177ms
+169 timing auditReport:getReport Completed in 179ms
+170 silly audit report {
+170 silly audit report   async: [
+170 silly audit report     {
+170 silly audit report       id: 1070207,
+170 silly audit report       url: 'https://github.com/advisories/GHSA-fwr7-v2mv-hh25',
+170 silly audit report       title: 'Prototype Pollution in async',
+170 silly audit report       severity: 'high',
+170 silly audit report       vulnerable_versions: '>=3.0.0 <3.2.2',
+170 silly audit report       cwe: [Array],
+170 silly audit report       cvss: [Object]
+170 silly audit report     }
+170 silly audit report   ],
+170 silly audit report   minimist: [
+170 silly audit report     {
+170 silly audit report       id: 1070255,
+170 silly audit report       url: 'https://github.com/advisories/GHSA-vh95-rmgr-6w4m',
+170 silly audit report       title: 'Prototype Pollution in minimist',
+170 silly audit report       severity: 'moderate',
+170 silly audit report       vulnerable_versions: '<0.2.1',
+170 silly audit report       cwe: [Array],
+170 silly audit report       cvss: [Object]
+170 silly audit report     },
+170 silly audit report     {
+170 silly audit report       id: 1067342,
+170 silly audit report       url: 'https://github.com/advisories/GHSA-xvch-5gv4-984h',
+170 silly audit report       title: 'Prototype Pollution in minimist',
+170 silly audit report       severity: 'critical',
+170 silly audit report       vulnerable_versions: '<1.2.6',
+170 silly audit report       cwe: [Array],
+170 silly audit report       cvss: [Object]
+170 silly audit report     }
+170 silly audit report   ],
+170 silly audit report   'aws-sdk': [
+170 silly audit report     {
+170 silly audit report       id: 1068123,
+170 silly audit report       url: 'https://github.com/advisories/GHSA-rrc9-gqf8-8rwg',
+170 silly audit report       title: 'Prototype Pollution via file load in aws-sdk and @aws-sdk/shared-ini-file-loader',
+170 silly audit report       severity: 'high',
+170 silly audit report       vulnerable_versions: '<2.814.0',
+170 silly audit report       cwe: [Array],
+170 silly audit report       cvss: [Object]
+170 silly audit report     }
+170 silly audit report   ]
+170 silly audit report }
+171 timing metavuln:packument:async Completed in 0ms
+172 timing metavuln:packument:minimist Completed in 0ms
+173 timing metavuln:packument:aws-sdk Completed in 1ms
+174 timing metavuln:cache:get:security-advisory:async:XwoEwPlq0aI53f7KWU4MUe8H5FAk+7g6iV+VwUYBU76IEIUwwc6faaUOOLLy1n4obA4ylp6UiI2eXa4ep9Xp6g== Completed in 2ms
+175 timing metavuln:load:security-advisory:async:1070207 Completed in 3ms
+176 timing metavuln:cache:get:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 5ms
+177 timing metavuln:load:security-advisory:minimist:1070255 Completed in 1ms
+178 timing metavuln:cache:get:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 6ms
+179 timing metavuln:load:security-advisory:minimist:1067342 Completed in 1ms
+180 timing metavuln:cache:get:security-advisory:aws-sdk:Q74X5SnCHAgv3RBrQdxClNQFn+dRcNHrB95VqyNs4cOJSLdHd9fHgVnNd/TWw/3pEV1jcuFX8WECQn5MgxLe5w== Completed in 7ms
+181 timing metavuln:load:security-advisory:aws-sdk:1068123 Completed in 57ms
+182 timing metavuln:cache:put:security-advisory:async:XwoEwPlq0aI53f7KWU4MUe8H5FAk+7g6iV+VwUYBU76IEIUwwc6faaUOOLLy1n4obA4ylp6UiI2eXa4ep9Xp6g== Completed in 284ms
+183 timing metavuln:calculate:security-advisory:async:1070207 Completed in 289ms
+184 timing metavuln:cache:put:security-advisory:minimist:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 282ms
+185 timing metavuln:calculate:security-advisory:minimist:1070255 Completed in 288ms
+186 timing metavuln:cache:put:security-advisory:minimist:nZkhUdPEpKwzIx1nekYW4B7BHQyF2nm6J0JsgeP2HfA0DRMT5hhByRU71A4RPgtBbQPYEzVBozv8/mBZCafaGw== Completed in 281ms
+187 timing metavuln:calculate:security-advisory:minimist:1067342 Completed in 288ms
+188 timing metavuln:cache:put:security-advisory:aws-sdk:Q74X5SnCHAgv3RBrQdxClNQFn+dRcNHrB95VqyNs4cOJSLdHd9fHgVnNd/TWw/3pEV1jcuFX8WECQn5MgxLe5w== Completed in 228ms
+189 timing metavuln:calculate:security-advisory:aws-sdk:1068123 Completed in 292ms
+190 timing metavuln:packument:mkdirp Completed in 0ms
+191 timing metavuln:cache:get:security-advisory:mkdirp:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 3ms
+192 timing metavuln:load:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 2ms
+193 http fetch GET 200 https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz 446ms (cache miss)
+194 timing reifyNode:node_modules/base64-js Completed in 498ms
+195 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz 489ms (cache miss)
+196 timing reifyNode:node_modules/punycode Completed in 510ms
+197 http fetch GET 200 https://registry.npmjs.org/http-error/-/http-error-0.0.6.tgz 415ms (cache miss)
+198 timing reifyNode:node_modules/http-error Completed in 519ms
+199 http fetch GET 200 https://registry.npmjs.org/ieee754/-/ieee754-1.1.13.tgz 446ms (cache miss)
+200 timing reifyNode:node_modules/ieee754 Completed in 523ms
+201 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 480ms (cache miss)
+202 timing reifyNode:node_modules/isarray Completed in 528ms
+203 http fetch GET 200 https://registry.npmjs.org/xml2js/-/xml2js-0.4.19.tgz 478ms (cache miss)
+204 timing reifyNode:node_modules/xml2js Completed in 532ms
+205 http fetch GET 200 https://registry.npmjs.org/sax/-/sax-1.2.1.tgz 475ms (cache miss)
+206 timing reifyNode:node_modules/sax Completed in 535ms
+207 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-4.1.0.tgz 431ms (cache miss)
+208 timing reifyNode:node_modules/commander Completed in 546ms
+209 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz 523ms (cache miss)
+210 timing reifyNode:node_modules/minimist Completed in 553ms
+211 http fetch GET 200 https://registry.npmjs.org/amd-loader/-/amd-loader-0.0.8.tgz 405ms (cache miss)
+212 timing reifyNode:node_modules/amd-loader Completed in 559ms
+213 http fetch GET 200 https://registry.npmjs.org/url/-/url-0.10.3.tgz 513ms (cache miss)
+214 timing reifyNode:node_modules/url Completed in 569ms
+215 http fetch GET 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz 547ms (cache miss)
+216 timing reifyNode:node_modules/sprintf-js Completed in 580ms
+217 timing metavuln:cache:put:security-advisory:mkdirp:+PhhGcJymuV+5rvW81MCikyjMiTBQuLIQZOUvB89Mb8uk3Q8tDX1tf8ihGO4POtNtnBz09eROrGo7rpMSategw== Completed in 104ms
+218 timing metavuln:calculate:security-advisory:mkdirp:HzlTd/CS509JwqRUmSOa+xKGYgjeXpUaWCnQckWGHjn/fcOUvS1viXUyBuSwKMKOELDnu9ADP3t6IyP7rFSUIA== Completed in 110ms
+219 timing auditReport:init Completed in 422ms
+220 timing reify:audit Completed in 602ms
+221 http fetch GET 200 https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz 539ms (cache miss)
+222 warn deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+223 timing reifyNode:node_modules/querystring Completed in 612ms
+224 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz 524ms (cache miss)
+225 warn deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+226 timing reifyNode:node_modules/mkdirp Completed in 622ms
+227 http fetch GET 200 https://registry.npmjs.org/events/-/events-1.1.1.tgz 547ms (cache miss)
+228 timing reifyNode:node_modules/events Completed in 627ms
+229 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.3.2.tgz 495ms (cache miss)
+230 warn deprecated uuid@3.3.2: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+231 timing reifyNode:node_modules/aws-sdk/node_modules/uuid Completed in 631ms
+232 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz 539ms (cache miss)
+233 warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+234 timing reifyNode:node_modules/uuid Completed in 635ms
+235 http fetch GET 200 https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-9.0.7.tgz 645ms (cache miss)
+236 timing reifyNode:node_modules/xmlbuilder Completed in 662ms
+237 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 632ms (cache miss)
+238 timing reifyNode:node_modules/esprima Completed in 667ms
+239 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz 643ms (cache miss)
+240 timing reifyNode:node_modules/argparse Completed in 681ms
+241 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-4.9.1.tgz 615ms (cache miss)
+242 warn deprecated buffer@4.9.1: This version of 'buffer' is out-of-date. You must update to v4.9.2 or newer
+243 timing reifyNode:node_modules/buffer Completed in 699ms
+244 http fetch GET 200 https://registry.npmjs.org/jmespath/-/jmespath-0.15.0.tgz 628ms (cache miss)
+245 timing reifyNode:node_modules/jmespath Completed in 703ms
+246 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-3.13.1.tgz 612ms (cache miss)
+247 timing reifyNode:node_modules/js-yaml Completed in 713ms
+248 http fetch GET 200 https://registry.npmjs.org/async/-/async-3.1.1.tgz 603ms (cache miss)
+249 timing reifyNode:node_modules/async Completed in 752ms
+250 http fetch GET 200 https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.610.0.tgz 1249ms (cache miss)
+251 timing reifyNode:node_modules/aws-sdk Completed in 1379ms
+252 timing reify:unpack Completed in 1380ms
+253 timing reify:unretire Completed in 0ms
+254 timing build:queue Completed in 1ms
+255 timing build:link:node_modules/aws-sdk/node_modules/uuid Completed in 2ms
+256 timing build:link:node_modules/esprima Completed in 3ms
+257 timing build:link:node_modules/js-yaml Completed in 2ms
+258 timing build:link:node_modules/mkdirp Completed in 2ms
+259 timing build:link:node_modules/uuid Completed in 2ms
+260 timing build:link Completed in 3ms
+261 timing build:deps Completed in 4ms
+262 timing build Completed in 4ms
+263 timing reify:build Completed in 5ms
+264 timing reify:trash Completed in 0ms
+265 timing reify:save Completed in 9ms
+266 timing reify Completed in 2138ms
+267 silly ADD node_modules/xmlbuilder
+268 silly ADD node_modules/punycode
+269 silly ADD node_modules/minimist
+270 silly ADD node_modules/sprintf-js
+271 silly ADD node_modules/esprima
+272 silly ADD node_modules/argparse
+273 silly ADD node_modules/isarray
+274 silly ADD node_modules/base64-js
+275 silly ADD node_modules/xml2js
+276 silly ADD node_modules/url
+277 silly ADD node_modules/sax
+278 silly ADD node_modules/querystring
+279 silly ADD node_modules/jmespath
+280 silly ADD node_modules/ieee754
+281 silly ADD node_modules/events
+282 silly ADD node_modules/buffer
+283 silly ADD node_modules/uuid
+284 silly ADD node_modules/mkdirp
+285 silly ADD node_modules/js-yaml
+286 silly ADD node_modules/http-error
+287 silly ADD node_modules/commander
+288 silly ADD node_modules/aws-sdk
+289 silly ADD node_modules/aws-sdk/node_modules/uuid
+290 silly ADD node_modules/async
+291 silly ADD node_modules/amd-loader
+292 timing command:install Completed in 2183ms
+293 verbose exit 0
+294 timing npm Completed in 2392ms
+295 info ok
